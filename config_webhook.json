@@ -8,7 +8,7 @@
         ],
         "threshold": 130,
         "cooldown": 300,
-        "body": "{\"msg_type\": \"text\", \"content\": {\"text\": \"🚨 监测到异常高心率！\\n当前数值：\"{bpm}\" BPM\\n事件详情：{event}\\n请注意休息。\"}}",
+        "body": "{\"msg_type\": \"text\", \"content\": {\"text\": \"🚨 监测到异常高心率！\\n当前数值：\"{bpm}\" BPM\\n事件详情：\"{event}\"\\n请注意休息。\"}}",
         "headers": "{\"Content-Type\": \"application/json\"}",
         "max_retries": 2
     },
