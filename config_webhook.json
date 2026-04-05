@@ -49,7 +49,7 @@
         "threshold_low": 60,
         "threshold_high": 120,
         "cooldown": 60,
-        "body": "{\"msg_type\":\"interactive\",\"card\":{\"header\":{\"title\":{\"tag\":\"plain_text\",\"content\":\"{event}\"},\"template\":\"blue\"},\"elements\":[{\"tag\":\"div\",\"text\":{\"tag\":\"lark_md\",\"content\":\"时间: {time}\\n地点: {location} ({ip})\\n状态: ❤️ {bpm} BPM | 🔋 {battery}%\\n设备: {name} ({mac})\\n系统: {os} \"}},{\"tag\": \"hr\"},{\"tag\":\"note\",\"elements\":[{\"tag\":\"plain_text\",\"content\":\"HeartRateMonitor-机器码: {machine_id}\"}]}]}}",
+        "body": "{\"msg_type\":\"interactive\",\"card\":{\"header\":{\"title\":{\"tag\":\"plain_text\",\"content\":\"{event}\"},\"template\":\"blue\"},\"elements\":[{\"tag\":\"div\",\"text\":{\"tag\":\"lark_md\",\"content\":\"时间: {time}\\n地点: {location} ({ip})\\n状态: ❤️ {bpm} BPM | 🔋 {battery}%\\n设备: {name} ({mac})\\n系统: {os} \"}},{\"tag\": \"hr\"},{\"tag\":\"note\",\"elements\":[{\"tag\":\"plain_text\",\"content\":\"HeartRateMonitor-{version}\\n机器码: {machine_id}\"}]}]}}",
         "headers": "{\"Content-Type\": \"application/json\"}"
     },
     {
