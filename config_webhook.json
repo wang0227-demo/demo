@@ -1,6 +1,6 @@
 [
     {
-        "enabled": true,
+        "enabled": false,
         "name": "飞书机器人 (心率异常报警)",
         "url": "https://open.feishu.cn/open-apis/bot/v2/hook/59bbd34e-69d6-46d7-a9fa-755f117fd0de",
         "triggers": [
@@ -9,26 +9,26 @@
         "threshold_low": 60,
         "threshold_high": 120,
         "cooldown": 120,
-        "body": "{\"msg_type\": \"text\", \"content\": {\"text\": \"🚨 监测到心率异常！-HeartRateMonitor\\n当前数值：{bpm} BPM\\n事件详情：{event}\\n请注意休息。\"}}",
+        "body": "{\"msg_type\": \"text\", \"content\": {\"text\": \"🚨 监测到心率异常！-HeartRateMonitor\\n当前数值：{bpm} BPM\\n事件详情：{event}\\n当前心率异常，请注意休息。\"}}",
         "headers": "{\"Content-Type\": \"application/json\"}"
     },
     {
         "enabled": false,
-        "name": "IFTTT 智能家居 (开启风扇/报警灯)",
-        "url": "https://maker.ifttt.com",
+        "name": "飞书机器人 (设备电量低提醒)",
+        "url": "https://open.feishu.cn/open-apis/bot/v2/hook/59bbd34e-69d6-46d7-a9fa-755f117fd0de",
         "triggers": [
-            "heart_rate_updated"
+            "low_battery"
         ],
         "threshold_low": 60,
         "threshold_high": 120,
-        "cooldown": 60,
-        "body": "{\"value1\": \"{bpm}\", \"value2\": \"{event}\"}",
+        "cooldown": 120,
+        "body": "{\"msg_type\": \"text\", \"content\": {\"text\": \"🪫 设备电量低提醒！-HeartRateMonitor\\n当前电量剩余：{battery} %\\n事件详情：{event}\\n当前设备电量低，请注意充电。\"}}",
         "headers": "{\"Content-Type\": \"application/json\"}"
     },
     {
         "enabled": false,
-        "name": "设备状态监控 (连接/断开通知)",
-        "url": "https://httpbin.org",
+        "name": "飞书机器人 (设备状态通知)",
+        "url": "https://open.feishu.cn/open-apis/bot/v2/hook/59bbd34e-69d6-46d7-a9fa-755f117fd0de",
         "triggers": [
             "connected",
             "disconnected"
@@ -36,7 +36,20 @@
         "threshold_low": 60,
         "threshold_high": 120,
         "cooldown": 60,
-        "body": "{\"device_status\": \"{event}\", \"timestamp\": \"{bpm}\"}",
+        "body": "{\"msg_type\": \"text\", \"content\": {\"text\": \"🔔 设备状态通知！-HeartRateMonitor\\n当前状态：{event}\\nMAC：{mac}\"}}",
+        "headers": "{\"Content-Type\": \"application/json\"}"
+    },
+    {
+        "enabled": true,
+        "name": "飞书机器人 (上线通知)",
+        "url": "https://open.feishu.cn/open-apis/bot/v2/hook/59bbd34e-69d6-46d7-a9fa-755f117fd0de",
+        "triggers": [
+            "app_start"
+        ],
+        "threshold_low": 60,
+        "threshold_high": 120,
+        "cooldown": 60,
+        "body": "{\"msg_type\":\"interactive\",\"card\":{\"header\":{\"title\":{\"tag\":\"plain_text\",\"content\":\"{event}\"},\"template\":\"blue\"},\"elements\":[{\"tag\":\"div\",\"text\":{\"tag\":\"lark_md\",\"content\":\"时间: {time}\\n地点: {location} ({ip})\\n状态: ❤️ {bpm} BPM | 🔋 {battery}%\\n设备: {name} ({mac})\"}},{\"tag\": \"hr\"},{\"tag\":\"note\",\"elements\":[{\"tag\":\"plain_text\",\"content\":\"HeartRateMonitor-机器码: {machine_id}\"}]}]}}",
         "headers": "{\"Content-Type\": \"application/json\"}"
     },
     {
@@ -49,7 +62,7 @@
         "threshold_low": 60,
         "threshold_high": 120,
         "cooldown": 60,
-        "body": "{\"bpm\": \"{bpm}\", \"type\": \"log\"}",
+        "body": "{\"value1\": \"{bpm}\", \"value2\": \"{event}\"}",
         "headers": "{\"Authorization\": \"Bearer YOUR_TOKEN\"}"
     }
 ]
