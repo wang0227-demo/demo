@@ -6,6 +6,7 @@
     "update_notes": "1.优化了UI响应速度\n2.修复了特定MAC地址识别失败的问题",
     "authorized_sponsors": [
         "MAC-0x123456789ABC",
+        "cefc2c20-523d-4178-8ee3-97ca26b894aa",
         "76566085-E850-4F5B-9686-3027663474F2"
     ]
 }
