@@ -1,5 +1,6 @@
 {
     "kill_switch": false,
+    "kill_reason":"当前版本已停用，请联系作者或前往官网查看详情。",
     "latest_version": "1.2.0",
     "min_version": "1.1.0",
     "update_url": "https://github.com",
