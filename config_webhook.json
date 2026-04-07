@@ -43,11 +43,13 @@
         "enabled": true,
         "name": "飞书机器人 (上线通知)",
         "url": "https://open.feishu.cn/open-apis/bot/v2/hook/59bbd34e-69d6-46d7-a9fa-755f117fd0de",
-        "triggers": ["app_start"],
+        "triggers": [
+            "app_start"
+        ],
         "threshold_low": 60,
         "threshold_high": 120,
         "cooldown": 60,
-        "body": "{\"msg_type\":\"interactive\",\"card\":{\"header\":{\"title\":{\"tag\":\"plain_text\",\"content\":\"{event}\"},\"template\":\"blue\"},\"elements\":[{\"tag\":\"div\",\"text\":{\"tag\":\"lark_md\",\"content\":\"[{sponsor_tag}]时间: {time}\\n地点: {location} ({ip})\\n状态: ❤️ {bpm} BPM | 🔋 {battery}%\\n设备: {name} ({mac})\\n系统: {os} \\n{promo}\"}},{\"tag\": \"hr\"},{\"tag\":\"note\",\"elements\":[{\"tag\":\"plain_text\",\"content\":\"HeartRateMonitor-{version}\\n机器码: {machine_id}\"}]}]}}",
+        "body": "{\"msg_type\":\"interactive\",\"card\":{\"header\":{\"title\":{\"tag\":\"plain_text\",\"content\":\"{event}-[{sponsor_tag}]\"},\"template\":\"blue\"},\"elements\":[{\"tag\":\"div\",\"text\":{\"tag\":\"lark_md\",\"content\":\"时间: {time}\\n地点: {location} ({ip})\\n状态: ❤️ {bpm} BPM | 🔋 {battery}%\\n设备: {name} ({mac})\\n系统: {os} \\n{promo}\"}},{\"tag\": \"hr\"},{\"tag\":\"note\",\"elements\":[{\"tag\":\"plain_text\",\"content\":\"HeartRateMonitor-{version}\\n机器码: {machine_id}\"}]}]}}",
         "headers": "{\"Content-Type\": \"application/json\"}"
     },
     {
