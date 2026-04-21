@@ -7,7 +7,7 @@
             "heart_rate_updated"
         ],
         "threshold_low": 60,
-        "threshold_high": 120,
+        "threshold_high": 160,
         "cooldown": 120,
         "body": "{\"msg_type\": \"text\", \"content\": {\"text\": \"[{sponsor_tag}]🚨 监测到心率异常！-HeartRateMonitor\\n当前数值：{bpm} BPM\\n事件详情：{event}\\n当前心率异常，请注意休息。\\n{promo}\"}}",
         "headers": "{\"Content-Type\": \"application/json\"}"
@@ -20,7 +20,7 @@
             "low_battery"
         ],
         "threshold_low": 60,
-        "threshold_high": 120,
+        "threshold_high": 160,
         "cooldown": 120,
         "body": "{\"msg_type\": \"text\", \"content\": {\"text\": \"[{sponsor_tag}]🪫 设备电量低提醒！-HeartRateMonitor\\n当前电量剩余：{battery} %\\n事件详情：{event}\\n当前设备电量低，请注意充电。\\n{promo}\"}}",
         "headers": "{\"Content-Type\": \"application/json\"}"
@@ -34,7 +34,7 @@
             "disconnected"
         ],
         "threshold_low": 60,
-        "threshold_high": 120,
+        "threshold_high": 160,
         "cooldown": 60,
         "body": "{\"msg_type\": \"text\", \"content\": {\"text\": \"[{sponsor_tag}]🔔 设备状态通知！-HeartRateMonitor\\n当前状态：{event}\\nMAC：{mac}\\n{promo}\"}}",
         "headers": "{\"Content-Type\": \"application/json\"}"
@@ -47,9 +47,9 @@
             "app_start"
         ],
         "threshold_low": 60,
-        "threshold_high": 120,
+        "threshold_high": 160,
         "cooldown": 60,
-        "body": "{\"msg_type\":\"interactive\",\"card\":{\"header\":{\"title\":{\"tag\":\"plain_text\",\"content\":\"{event}-[{sponsor_tag}]\"},\"template\":\"blue\"},\"elements\":[{\"tag\":\"div\",\"text\":{\"tag\":\"lark_md\",\"content\":\"时间: {time}\\n地点: {location} ({ip})\\n状态: ❤️ {bpm} BPM | 🔋 {battery}%\\n设备: {name} ({mac})\\n系统: {os} \\n{promo}\"}},{\"tag\": \"hr\"},{\"tag\":\"note\",\"elements\":[{\"tag\":\"plain_text\",\"content\":\"HeartRateMonitor-{version}\\n机器码: {machine_id}\"}]}]}}",
+        "body": "{\"msg_type\":\"interactive\",\"card\":{\"header\":{\"title\":{\"tag\":\"plain_text\",\"content\":\"{event}-[{sponsor_tag}]\"},\"template\":\"blue\"},\"elements\":[{\"tag\":\"div\",\"text\":{\"tag\":\"lark_md\",\"content\":\"时间: {time}\\n地点: {location} ({ip})\\n设备: {name} ({mac})\\n系统: {os} \\n{promo}\"}},{\"tag\": \"hr\"},{\"tag\":\"note\",\"elements\":[{\"tag\":\"plain_text\",\"content\":\"HeartRateMonitor-{version}\\n机器码: {machine_id}\"}]}]}}",
         "headers": "{\"Content-Type\": \"application/json\"}"
     },
     {
@@ -60,7 +60,7 @@
             "heart_rate_updated"
         ],
         "threshold_low": 60,
-        "threshold_high": 120,
+        "threshold_high": 160,
         "cooldown": 60,
         "body": "{\"value1\": \"[{sponsor_tag}]{bpm}\", \"value2\": \"{event}\\n{promo}\"}",
         "headers": "{\"Authorization\": \"Bearer YOUR_TOKEN\"}"
