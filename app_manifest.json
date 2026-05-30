@@ -1,13 +1,13 @@
 {
     "kill_switch": false,
     "kill_reason": "当前版本已停用，请联系作者或前往官网查看详情。",
-    "latest_version": "1.2.0",
+    "latest_version": "1.3.0",
     "min_version": "1.1.0",
-    "update_url": "https://github.com",
-    "update_notes": "1.优化了UI显示界面以及响应速度\n2.右下角新增了看板娘功能\n3.修复了特定MAC地址识别失败的问题",
+    "update_url": "https://github.com/wang0227-demo/HeartRateMonitor/releases/download/v1.3.0/HeartRateMonitor_v1.3.0.rar",
+    "update_notes": "1.优化了UI显示界面以及响应速度\n2.新增部分扩展功能\n3.代码重构优化及bug修复",
     "authorized_sponsors": [
         "MAC-0x123456789ABC",
-        "cefc2c20-523d-4178-8ee3-97ca26b894aa",
+        "e77aa208-2bbe-4173-95b3-1f5c2b9dfe02",
         "76566085-E850-4F5B-9686-3027663474F2"
     ]
 }
