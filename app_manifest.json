@@ -6,10 +6,10 @@
     "update_url": "https://v6.gh-proxy.org/https://github.com/wang0227-demo/HeartRateMonitor/releases/download/v1.3.1/HeartRateMonitor_v1.3.1.rar",
     "update_notes": "1.优化了UI显示界面以及响应速度\n2.新增了几个扩展功能\n3.修复了几个隐性BUG\n4.新增30+显示效果模板",
     "banned_list": [
-        "DC5FDAD0BF2B2B51157DCFB455D5DCC1"
+        "DC5FDAD0BF2B2B51157DCFB455D5DCC3"
     ],
     "authorized_sponsors": [
-        "DC5FDAD0BF2B2B51157DCFB455D5DCC3",
+        "DC5FDAD0BF2B2B51157DCFB455D5DCC1",
         "76566085-E850-4F5B-9686-3027663474F2"
     ]
 }
