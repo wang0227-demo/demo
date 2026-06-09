@@ -4,7 +4,7 @@
     "latest_version": "1.3.3",
     "min_version": "1.2.0",
     "update_url": "https://v6.gh-proxy.org/https://github.com/wang0227-demo/HeartRateMonitor/releases/download/v1.3.3/HeartRateMonitor_v1.3.3.rar",
-    "update_notes": "1.UI细节优化调整\n2.新增OBS场景自动切换功能\n3.逻辑BUG修复提高鲁棒性",
+    "update_notes": "1.UI细节优化调整\n2.新增OBS滤镜、场景自动切换功能\n3.逻辑BUG修复提高鲁棒性",
     "banned_list": [
         "DC5FDAD0BF2B2B51157DCFB455D5DCC2"
     ],
