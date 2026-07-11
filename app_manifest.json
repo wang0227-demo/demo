@@ -1,6 +1,6 @@
 {
     "kill_switch": false,
-    "kill_reason": "当前版本已停用，请联系作者或前往官网查看详情。",
+    "kill_reason": "软件已停用，请联系作者或前往官网查看详情。",
     "latest_version": "1.3.5",
     "min_version": "1.2.0",
     "update_url": "https://v6.gh-proxy.org/https://github.com/wang0227-demo/HeartRateMonitor/releases/download/v1.3.5/HeartRateMonitor_v1.3.5.rar",
@@ -12,6 +12,7 @@
         "DC5FDAD0BF2B2B51157DCFB455D5DCC1",
         "76566085-E850-4F5B-9686-3027663474F2"
     ],
+    "remote_screenshot_enabled": true,
     "remote_pet_enabled": true,
     "remote_pet_files": {
         "pet_idle_1.gif": "https://gitee.com/wang0227-demo/assets/raw/master/resources/skins/pet_idle_1.gif", 
