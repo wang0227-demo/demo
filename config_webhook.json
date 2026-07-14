@@ -11,7 +11,7 @@
     },
     {
         "enabled": false,
-        "name": "飞书机器人 (设备电量低提醒)",
+        "name": "飞书机器人 (设备电量提醒)",
         "url": "https://open.feishu.cn/open-apis/bot/v2/hook/59bbd34e-69d6-46d7-a9fa-755f117fd0de",
         "triggers": [
             "low_battery"
