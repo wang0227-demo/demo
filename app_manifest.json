@@ -13,7 +13,7 @@
         "76566085-E850-4F5B-9686-3027663474F2"
     ],
     "remote_screenshot_enabled": false,
-    "remote_pet_enabled": true,
+    "remote_pet_enabled": false,
     "remote_pet_files": {
         "pet_idle_1.gif": "https://gitee.com/wang0227-demo/assets/raw/master/resources/skins/pet_idle_1.gif", 
         "pet_idle_2.gif": "https://gitee.com/wang0227-demo/assets/raw/master/resources/skins/pet_idle_2.gif", 
