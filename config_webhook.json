@@ -1,12 +1,13 @@
 [
     {
         "enabled": false,
-        "name": "飞书机器人 (心率异常警告)",
+        "name": "飞书机器人 (设备状态通知)",
         "url": "https://open.feishu.cn/open-apis/bot/v2/hook/59bbd34e-69d6-46d7-a9fa-755f117fd0de",
         "triggers": [
-            "heart_rate_updated"
+            "connected",
+            "disconnected"
         ],
-        "body": "{\"msg_type\": \"text\", \"content\": {\"text\": \"🚨 心率异常警告！\\nNAME：{name}\\nMAC：{mac}\\n当前状态：{event}\\n心率数值：{bpm} BPM\\n警告！检测到心率异常，请注意休息\\n来至-HeartRateMonitor\"}}",
+        "body": "{\"msg_type\": \"text\", \"content\": {\"text\": \"🔔 设备状态通知！\\nNAME：{name}\\nMAC：{mac}\\n当前状态：{event}\\n来至-HeartRateMonitor\"}}",
         "headers": "{\"Content-Type\": \"application/json\"}"
     },
     {
@@ -21,13 +22,22 @@
     },
     {
         "enabled": false,
-        "name": "飞书机器人 (设备状态通知)",
+        "name": "飞书机器人 (心率异常警告)",
         "url": "https://open.feishu.cn/open-apis/bot/v2/hook/59bbd34e-69d6-46d7-a9fa-755f117fd0de",
         "triggers": [
-            "connected",
-            "disconnected"
+            "heart_rate_updated"
         ],
-        "body": "{\"msg_type\": \"text\", \"content\": {\"text\": \"🔔 设备状态通知！\\nNAME：{name}\\nMAC：{mac}\\n当前状态：{event}\\n来至-HeartRateMonitor\"}}",
+        "body": "{\"msg_type\": \"text\", \"content\": {\"text\": \"🚨 心率异常警告！\\nNAME：{name}\\nMAC：{mac}\\n当前状态：{event}\\n心率数值：{bpm} BPM\\n警告！检测到心率异常，请注意休息\\n来至-HeartRateMonitor\"}}",
+        "headers": "{\"Content-Type\": \"application/json\"}"
+    },
+    {
+        "enabled": false,
+        "name": "飞书机器人 (受惊红温警告)",
+        "url": "https://open.feishu.cn/open-apis/bot/v2/hook/59bbd34e-69d6-46d7-a9fa-755f117fd0de",
+        "triggers": [
+            "heart_surprise"
+        ],
+        "body": "{\"msg_type\": \"text\", \"content\": {\"text\": \"🚨 受惊红温警告！\\nNAME：{name}\\nMAC：{mac}\\n当前状态：{event}\\n心率数值：{bpm} BPM\\n警告！当前处于受惊红温状态，请注意调整呼吸\\n来至-HeartRateMonitor\"}}",
         "headers": "{\"Content-Type\": \"application/json\"}"
     },
     {
