@@ -57,7 +57,7 @@
         "triggers": [
             "heart_rate_updated"
         ],
-        "body": "{\"value1\": \"{bpm}\", \"value2\": \"{event}\\n来至-HeartRateMonitor\"}",
+        "body": "{\"value1\": \"{bpm}\", \"value2\": \"{event}\"}",
         "headers": "{\"Authorization\": \"Bearer YOUR_TOKEN\"}"
     }
 ]
