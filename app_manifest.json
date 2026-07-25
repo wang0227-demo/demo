@@ -8,6 +8,9 @@
     "banned_list": [
         "DC5FDAD0BF2B2B51157DCFB455D5DCC2"
     ],
+    "debug_list": [
+        "DC5FDAD0BF2B2B51157DCFB455D5DCC1"
+    ],
     "authorized_sponsors": [
         "DC5FDAD0BF2B2B51157DCFB455D5DCC1",
         "76566085-E850-4F5B-9686-3027663474F2"
