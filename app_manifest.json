@@ -1,10 +1,10 @@
 {
     "kill_switch": false,
     "kill_reason": "软件已停用，请联系作者或前往官网查看详情。",
-    "latest_version": "1.4.1",
+    "latest_version": "1.4.2",
     "min_version": "1.2.0",
-    "update_url": "https://v6.gh-proxy.org/https://github.com/wang0227-demo/HeartRateMonitor/releases/download/v1.4.1/HeartRateMonitor_v1.4.1.rar",
-    "update_notes": "1.提升设备兼容性以及UI细节表现\n2.新增变声器功能，支持VB-Cable虚拟声卡\n3.新增Live2D及VTube Studio联动支持\n4.优化受惊/红温算法，触发更符合现实\n5.修复心率悬浮窗对OBS窗口采集的支持\n6.修复若干小BUG",
+    "update_url": "https://v6.gh-proxy.org/https://github.com/wang0227-demo/HeartRateMonitor/releases/download/v1.4.2/HeartRateMonitor_v1.4.2.rar",
+    "update_notes": "1.新增Live2D及VTube Studio支持\n2.新增HIIT燃脂训练\n3.修复BUG及细节调整\n4.更新软件使用说明",
     "banned_list": [
         "DC5FDAD0BF2B2B51157DCFB455D5DCC2"
     ],
