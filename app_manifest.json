@@ -5,7 +5,7 @@
     "min_version": "1.2.0",
     "update_url": "https://v6.gh-proxy.org/https://github.com/wang0227-demo/HeartRateMonitor/releases/download/v1.4.2/HeartRateMonitor_v1.4.2.rar",
     "update_notes": "1.新增Live2D及VTube Studio支持\n2.新增HIIT燃脂训练\n3.修复BUG及细节调整\n4.更新软件使用说明",
-    "resources_version": "1.1",
+    "resources_version": "1.0",
     "resources_zip_url": "https://ghproxy.net/https://github.com/wang0227-demo/HeartRateMonitor/releases/download/v1.2.0/resources.zip",
     "banned_list": [
         "DC5FDAD0BF2B2B51157DCFB455D5DCC2"
