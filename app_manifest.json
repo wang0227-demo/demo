@@ -1,12 +1,12 @@
 {
     "kill_switch": false,
     "kill_reason": "软件已停用，请联系作者或前往官网查看详情。",
-    "latest_version": "1.5.0",
+    "latest_version": "1.5.1",
     "min_version": "1.2.0",
-    "update_url": "https://v6.gh-proxy.org/https://github.com/wang0227-demo/HeartRateMonitor/releases/download/v1.5.0/HeartRateMonitor_v1.5.0.zip",
+    "update_url": "https://gh-proxy.com/https://github.com/wang0227-demo/HeartRateMonitor/releases/download/v1.5.1/HeartRateMonitor_v1.5.1.zip",
     "update_notes": "1.新增控制台主页功能\n2.新增心率挂件管理功能\n3.新增HIIT训练模式功能\n4.新增实时心率图表功能\n5.新增HRV心率变异性功能\n6.BUG修复以及其他功能优化",
     "resources_version": "1.0",
-    "resources_zip_url": "https://ghproxy.net/https://github.com/wang0227-demo/HeartRateMonitor/releases/download/v1.2.0/resources.zip",
+    "resources_zip_url": "https://gh-proxy.com/https://github.com/wang0227-demo/HeartRateMonitor/releases/download/v1.2.0/resources.zip",
     "banned_list": [
         "DC5FDAD0BF2B2B51157DCFB455D5DCC2"
     ],
