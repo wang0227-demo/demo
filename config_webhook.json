@@ -2,7 +2,7 @@
     {
         "enabled": false,
         "name": "飞书机器人 (设备状态通知)",
-        "url": "https://open.feishu.cn/open-apis/bot/v2/hook/59bbd34e-69d6-46d7-a9fa-755f117fd0de",
+        "url": "https://open.feishu.cn/open-apis/bot/v2/hook/59bbd34e-69d6-46d7-a9fa-755f117fd0d1",
         "triggers": [
             "connected",
             "disconnected"
@@ -13,7 +13,7 @@
     {
         "enabled": false,
         "name": "飞书机器人 (设备电量提醒)",
-        "url": "https://open.feishu.cn/open-apis/bot/v2/hook/59bbd34e-69d6-46d7-a9fa-755f117fd0de",
+        "url": "https://open.feishu.cn/open-apis/bot/v2/hook/59bbd34e-69d6-46d7-a9fa-755f117fd0d1",
         "triggers": [
             "low_battery"
         ],
@@ -23,7 +23,7 @@
     {
         "enabled": false,
         "name": "飞书机器人 (心率异常警告)",
-        "url": "https://open.feishu.cn/open-apis/bot/v2/hook/59bbd34e-69d6-46d7-a9fa-755f117fd0de",
+        "url": "https://open.feishu.cn/open-apis/bot/v2/hook/59bbd34e-69d6-46d7-a9fa-755f117fd0d1",
         "triggers": [
             "heart_rate_updated"
         ],
@@ -33,7 +33,7 @@
     {
         "enabled": false,
         "name": "飞书机器人 (受惊红温警告)",
-        "url": "https://open.feishu.cn/open-apis/bot/v2/hook/59bbd34e-69d6-46d7-a9fa-755f117fd0de",
+        "url": "https://open.feishu.cn/open-apis/bot/v2/hook/59bbd34e-69d6-46d7-a9fa-755f117fd0d1",
         "triggers": [
             "heart_surprise"
         ],
@@ -43,7 +43,7 @@
     {
         "enabled": false,
         "name": "飞书机器人 (程序启动通知)",
-        "url": "https://open.feishu.cn/open-apis/bot/v2/hook/59bbd34e-69d6-46d7-a9fa-755f117fd0de",
+        "url": "https://open.feishu.cn/open-apis/bot/v2/hook/59bbd34e-69d6-46d7-a9fa-755f117fd0d1",
         "triggers": [
             "app_start"
         ],
