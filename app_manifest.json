@@ -1,10 +1,10 @@
 {
     "kill_switch": false,
     "kill_reason": "软件已停用，请联系作者或前往官网查看详情。",
-    "latest_version": "2.1.0",
+    "latest_version": "2.1.1",
     "min_version": "1.2.0",
-    "update_url": "https://gh-proxy.com/https://github.com/wang0227-demo/HeartRateMonitor/releases/download/v2.1.0/HeartRateMonitor_v2.1.0.zip",
-    "update_notes": "1.软件界面细节优化调整\n2.心率挂件精简优化升级（新增CodexPets、Live2D支持等）\n3.新增心率大厅、悬浮窗设置、自定义快捷键等功能",
+    "update_url": "https://gh-proxy.com/https://github.com/wang0227-demo/HeartRateMonitor/releases/download/v2.1.1/HeartRateMonitor_v2.1.1.zip",
+    "update_notes": "1.软件细节优化调整，数据精简、新增OBS联动设置等\n2.心率挂件细节调整优化，以及新增挂件等\n3.多开修复，不同目录可同时运行多实例\n4.软件大小优化，整体减小50%左右",
     "resources_version": "1.0",
     "resources_zip_url": "https://gh-proxy.com/https://github.com/wang0227-demo/HeartRateMonitor/releases/download/v1.2.0/resources.zip",
     "banned_list": [
